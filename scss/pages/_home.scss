@@ -1,0 +1,180 @@
+
+.background-video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.intro-page{
+    max-height: 100vh;
+    display: flex;
+    justify-content: left;
+    max-width: 100vw;
+    align-items: center;
+    padding: 15%;
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(30, 35, 40, 0.36) 0%, #1E2328 100%);
+    }
+}
+
+.dowload{
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    max-width: 100vw;
+    padding:10%;
+    margin: 0px;
+    @include respond-to(small){
+        flex-direction: row;
+    }
+}
+.explanation{
+    display: flex;
+    flex-direction: column;
+    @include respond-to(small){
+        margin-right: $unit*4;
+    }
+    
+}
+.traslate-text{
+    @include respond-to(small){
+        margin-left:$unit*4;
+    }
+}
+.btns-dowload{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:$unit;
+    margin-bottom:$unit*3;
+    @include respond-to(small){
+        flex-direction: row;
+    }
+
+}
+.vd-text{
+    @include respond-to(small){
+    display: flex;
+    flex-direction: row;}
+
+    &__cascada{
+        @include respond-to(small){
+            flex-direction: row-reverse;}
+    }
+}
+.vd-fire {
+    max-width: 100vw;
+    height: 500px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+    @include respond-to(small){
+        height: 100%;
+        width: 2500px;
+        margin-bottom: -4px;}
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(270deg, rgba(30, 35, 40, 0) 0%, #1E2328 100%);
+        @include respond-to(small){
+            background: linear-gradient(90deg, rgba(30, 35, 40, 0) 0%, #1E2328 100%);
+    }
+    }
+    
+}
+
+.text-meditacion{
+    &__title{
+    margin:-350px 30% 200px 10%;
+    @include respond-to(small){
+        margin: 40% 20% 10% -20%;
+    }
+    z-index: 1;}
+    &__desc{
+        margin: 0 10% 20px 10%;
+    }
+}
+
+.text-cascada{
+    &__title{
+    margin:-350px 30% 200px 10%;
+    z-index: 1;
+    @include respond-to(small){
+        text-align: right;
+        margin: 40% -20% 10% 20%;
+    }
+    }
+    &__desc{
+        margin: 0 10% 20px 10%;
+        @include respond-to(small){
+        text-align: right;
+        }
+    }
+}
+
+.vd-cascada{
+    max-width: 100vw;
+    height: 500px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+    @include respond-to(small){
+        height: 100%;
+        width: 2500px;}
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(270deg, rgba(30, 35, 40, 0) 0%, #1E2328 100%);
+    }
+}
+
+.world{
+    margin: 10% 10%;
+    @include respond-to(small){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+.text-sitios{
+    margin-right: 30%;
+    margin-bottom: -250px;
+    @include respond-to(small){
+    width: 60%;
+    margin-right: 0px;
+    margin-bottom:0px;}
+}
+.img-world{
+    margin: -300px 0px 0px 170px;
+    overflow-x: hidden;
+    width: 90%;
+    @include respond-to(small){
+    margin: 0px;
+    width: 80%;}
+}

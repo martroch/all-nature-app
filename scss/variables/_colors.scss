@@ -1,0 +1,27 @@
+//-------$VARIABLES COLORS
+
+$dark-grey:#1E2328;
+$brown:#CDB39B;
+$white:#FEFAF3;
+$stone:#494949;
+$gradient:linear-gradient(180deg, rgba(30, 35, 40, 0) 0%, #1E2328 100%);
+
+
+
+$brand-colors:(
+    'brand':  $brown,
+    'drak-grey': $dark-grey,
+    'white': $white,
+    'stone': $stone,
+);
+
+@each $name, $value in $brand-colors {
+
+    .color-#{$name}{
+        color: $value;
+    }
+
+    .background-color-#{$name}{
+        background-color: $value;
+    }
+}

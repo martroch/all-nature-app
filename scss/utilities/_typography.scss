@@ -1,0 +1,67 @@
+//-------$CLASS FOR TYPOGRPHY
+h1{
+    font-family: 'Noto Serif Display';
+    font-size: 38px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    @include respond-to(small){
+        font-size: 42px;
+    }
+}
+
+h2{
+
+    font-family: 'Noto Serif Display';
+    font-size: 38px;
+    line-height: 40px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    @include respond-to(small){
+        font-size: 44px;
+        
+    }
+}
+
+h3{
+    font-family: 'Noto Serif Display';
+    font-size: 24px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    color: $brown;
+    margin: 5px 0px;
+
+}
+p{
+    font-family: 'roboto';
+    font-size:  16px;
+    line-height: 22px;
+    font-weight: lighter;
+    @include respond-to(small){
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+}
+
+.intro{
+    font-family: 'roboto';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 20px 0px;
+    @include respond-to(small){
+        font-size: 24px;
+        line-height: 34px;
+        margin:10px 40px 40px 40px;
+    }
+}
+
+.text-btn{
+    font-family: 'Noto Serif Display';
+    font-size: 18px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-top:-45px;
+    color: $white;
+    
+}

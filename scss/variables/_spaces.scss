@@ -1,0 +1,36 @@
+
+//-------$VARIABLES SPACES
+
+$unit: 12px;
+$miniunit:$unit/2;
+
+$props: padding, margin;
+    
+
+$directions: top, right, bottom, left;
+
+$sizes:(
+        negative: $unit * -3,
+        xs: $miniunit/2,
+        s:$miniunit,
+        m:$unit,
+        l:$unit*2,
+        xl:$unit*3,
+        none:0,
+    );
+    
+    @each $prop in $props {
+             @each $key, $size in $sizes {
+                 .#{$prop}-#{$key} {
+                     #{$prop}: $size;
+                }
+             }
+            /* Direcciones */
+            @each $direction in $directions {
+                 @each $key, $size in $sizes {
+                    .#{$prop}-#{$direction}-#{$key} {
+                        #{$prop}-#{$direction}: $size;
+                    }
+                }
+            }
+    }
