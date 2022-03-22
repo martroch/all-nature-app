@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <?php include('./php/nav.php')?>
   <div class="top">
     <a href="#" class="top top__logo"> 
     <img src="./resources/logo-all-nature.svg" alt="All Nature logo" width="200px">
@@ -104,5 +105,7 @@
   <sections class="padding-top-xl">
 
   </section>
+
+  <script src="./js/menu.js"></script>
 </body>
 </html>
