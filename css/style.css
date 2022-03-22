@@ -461,6 +461,76 @@ button {
   }
 }
 
+.nav-bar {
+  background-color: aqua;
+  display: block;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 1.5em;
+  width: 100%;
+  color: black;
+}
+
+.menu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  background: #555;
+  width: 100%;
+  margin-left: -100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu__link {
+  display: block;
+  padding: 20px;
+  color: yellowgreen;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  background: #444;
+}
+
+.mostrar {
+  margin: 0px;
+}
+
+@media (min-width: 1024px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .menu {
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .container-submenu {
+    position: relative;
+  }
+
+  .submenu {
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    overflow: visible;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .container-submenu:hover .submenu {
+    background: #888;
+  }
+}
 .top {
   display: -webkit-box;
   display: -ms-flexbox;
