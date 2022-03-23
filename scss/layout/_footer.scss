@@ -1,0 +1,23 @@
+.main-footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: $white;
+    color:$dark-grey;
+    font-size: 14px;
+    text-align: center;
+    padding: 2% 10%;
+
+    @include respond-to(small){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    padding: $unit $unit*4;
+    }
+
+}
+.link-footer{
+    color: $dark-grey;
+}

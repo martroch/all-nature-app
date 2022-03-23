@@ -1,25 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP All Nature</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+<?php $title="All Nature App";?>
+<?php include('./php/head.php')?>
 <body>
   <?php include('./php/nav.php')?>
-  <div class="top">
-    <a href="#" class="top top__logo"> 
-    <img src="./resources/logo-all-nature.svg" alt="All Nature logo" width="200px">
-    </a>
-    <div class="top top__nav">
-    <a class="active" href="#home">Home</a>
-    <a href="#descubrelaapp">Descubre la app</a>
-    <a href="#ubicaciones">Ubicaciones</a>
-    <a href="#about">Área de usuario</a>
-    </div> 
-  </div>
   <div class="intro-page">
     <video autoplay muted loop id="background-video" class="background-video">
       <source src="./resources/sea-video.webm" type="video/webm">
@@ -75,7 +57,7 @@
       <source src="./resources/cascada.webm" type="video/webm">
       </video>
     </div>
-    <div>
+    <div class="content-cascada">
       <h2 class="text-cascada__title">NATURALEZA INMERSIVA SONIDOS 360º</h2>
       <p class="text-cascada__desc">Disfruta y relájate con la naturaleza y sus sonidos. Tú decides que lugares visitar y desde donde visitarlos para desconectar. <br> <br> Descubre hasta 150 lugares magníficos o incluye tu lugar idóneo para acceder a él en cualquier momento.</p>
       <button class="btn-organic btn-organic__right">
@@ -102,10 +84,8 @@
   </div>
   <img src="./resources/world.png" alt="image-world" class="img-world">
   </section>
-  <sections class="padding-top-xl">
 
-  </section>
-
+  <?php include('./php/footer.php')?>
   <script src="./js/menu.js"></script>
 </body>
 </html>

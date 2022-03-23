@@ -389,6 +389,11 @@ html {
   font-size: 100%;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body, html {
   height: 100%;
 }
@@ -398,11 +403,6 @@ body {
   color: #FEFAF3;
   background-color: #1E2328;
   margin: 0px;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 button {
@@ -457,18 +457,57 @@ button {
 }
 @media (min-width: 48em) {
   .btn-organic__right {
-    margin: 5% 0px 0px 40%;
+    margin: 10% 20% 0px;
   }
 }
 
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FEFAF3;
+  color: #1E2328;
+  font-size: 14px;
+  text-align: center;
+  padding: 2% 10%;
+}
+@media (min-width: 48em) {
+  .main-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 12px 48px;
+  }
+}
+
+.link-footer {
+  color: #1E2328;
+}
+
 .nav-bar {
-  background-color: aqua;
-  display: block;
-  padding: 20px;
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
   cursor: pointer;
   font-size: 1.5em;
-  width: 100%;
-  color: black;
+  padding-top: 10%;
 }
 
 .menu, .submenu {
@@ -478,9 +517,9 @@ button {
 }
 
 .menu {
-  background: #555;
   width: 100%;
-  margin-left: -100%;
+  margin-top: 10%;
+  margin-right: -100%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -488,17 +527,23 @@ button {
 .menu__link {
   display: block;
   padding: 20px;
-  color: yellowgreen;
+  color: #FEFAF3;
   font-size: 1.2em;
   text-decoration: none;
 }
-
 .menu__link:hover {
-  background: #444;
+  margin: -2px;
+  padding-bottom: 20px;
+  border-bottom: solid 4px #CDB39B;
+}
+.menu__link:active {
+  padding-bottom: 20px;
+  border-bottom: solid 4px #CDB39B;
 }
 
 .mostrar {
-  margin: 0px;
+  background-color: #1E2328;
+  margin: 10% 10px 0px 0px;
 }
 
 @media (min-width: 1024px) {
@@ -507,10 +552,16 @@ button {
   }
 
   .menu {
-    margin-left: 0;
+    margin: 0px;
+    width: 40%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    gap: 20px;
+    border-bottom: solid 1px #494949;
   }
 
   .container-submenu {
@@ -525,10 +576,6 @@ button {
     z-index: 9999;
     opacity: 0;
     visibility: hidden;
-  }
-
-  .container-submenu:hover .submenu {
-    background: #888;
   }
 }
 .top {
@@ -548,7 +595,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   max-width: 100vw;
-  margin: 10px 0px;
+  padding: 10px 20px;
 }
 .top a {
   color: #FEFAF3;
@@ -556,23 +603,23 @@ button {
 }
 .top__logo {
   width: 20%;
-  margin-left: 40px;
 }
 .top__nav {
-  margin-right: 40px;
-  width: 40%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 5px;
-  border-bottom: solid 1px #494949;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow-x: hidden;
 }
 .top__nav .active {
   margin-bottom: -7px;
-  padding-bottom: 5px;
+  padding-bottom: 18px;
   border-bottom: solid 4px #CDB39B;
 }
 
@@ -603,7 +650,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15%;
+  padding: 0px 12%;
+  margin-top: -40%;
+  margin-bottom: 15%;
 }
 .intro-page:after {
   content: "";
@@ -612,6 +661,11 @@ button {
   z-index: -1;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 35, 40, 0.36)), to(#1E2328));
   background: linear-gradient(180deg, rgba(30, 35, 40, 0.36) 0%, #1E2328 100%);
+}
+@media (min-width: 48em) {
+  .intro-page {
+    margin-top: 15%;
+  }
 }
 
 .dowload {
@@ -691,6 +745,9 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
 }
 @media (min-width: 48em) {
@@ -748,6 +805,29 @@ button {
   margin: 0 10% 20px 10%;
 }
 
+.content-cascada {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+@media (min-width: 48em) {
+  .content-cascada {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 10%;
+    padding-top: 0px;
+  }
+}
+
 .text-cascada__title {
   margin: -350px 30% 200px 10%;
   z-index: 1;
@@ -755,11 +835,11 @@ button {
 @media (min-width: 48em) {
   .text-cascada__title {
     text-align: right;
-    margin: 40% -20% 10% 20%;
+    margin: 20% -20% 10% 40%;
   }
 }
 .text-cascada__desc {
-  margin: 0 10% 20px 10%;
+  margin: 0px 20% 0px 10%;
 }
 @media (min-width: 48em) {
   .text-cascada__desc {
@@ -782,7 +862,6 @@ button {
 @media (min-width: 48em) {
   .vd-cascada {
     height: 100%;
-    width: 2500px;
   }
 }
 .vd-cascada:after {
@@ -794,7 +873,8 @@ button {
 }
 
 .world {
-  margin: 10% 10%;
+  margin-left: 10%;
+  overflow: hidden;
 }
 @media (min-width: 48em) {
   .world {
@@ -815,8 +895,8 @@ button {
 }
 
 .text-sitios {
-  margin-right: 30%;
-  margin-bottom: -250px;
+  margin-right: 35%;
+  margin-bottom: -99px;
 }
 @media (min-width: 48em) {
   .text-sitios {

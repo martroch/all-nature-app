@@ -38,7 +38,8 @@ button{
     &__right{
         margin:5% 0px 20% 10%;
         @include respond-to(small){
-            margin:5% 0px 0px 40%;
+            margin: 10% 20% 0px;
+
         }
     }
 }
