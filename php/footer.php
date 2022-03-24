@@ -4,3 +4,6 @@
         <img src="./resources/logo-all-nature-grey.svg" alt="All Nature logo" width="150px">
     </a>
 </footer>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+.intro-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+    overflow: hidden;
+    margin: 0px;;
+    
+
+}
+
+.text-intro{
+    height: 100vh;
+    display: flex;
+    padding: 0px 10%;
+    margin-top: -40%;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include respond-to(small){
+        margin-top: 15%;
+}}
+
+.nature-sounds{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 10% 5% 10%;
+    margin: 0px;
+    background-image: url("../resources/form.svg");
+    background-repeat: no-repeat;
+}
+
+.river-video{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
