@@ -5,5 +5,3 @@
     </a>
 </footer>
 
-</body>
-</html>

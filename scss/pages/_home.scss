@@ -193,13 +193,11 @@
     margin-bottom: 0; 
     text-align: center; }
 
-.text-sitios{
-    margin-right: 35%;
-    margin-bottom: -99px;
+
+.text-places{
     @include respond-to(small){
     width: 60%;
-    margin-right: 0px;
-    margin-bottom:0px;}
+    margin: 20% 0px;}
 }
 .img-world{
     margin: -300px 0px 0px 170px;
@@ -209,3 +207,4 @@
     margin: 0px;
     width: 80%;}
 }
+

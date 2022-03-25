@@ -385,6 +385,16 @@ p {
   color: #FEFAF3;
 }
 
+.btn-sound-text {
+  font-family: "Noto Serif Display";
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #FEFAF3;
+  margin-right: 12px;
+  margin-bottom: -5px;
+}
+
 html {
   font-size: 100%;
 }
@@ -908,15 +918,10 @@ button {
   text-align: center;
 }
 
-.text-sitios {
-  margin-right: 35%;
-  margin-bottom: -99px;
-}
 @media (min-width: 48em) {
-  .text-sitios {
+  .text-places {
     width: 60%;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin: 20% 0px;
   }
 }
 
@@ -948,7 +953,7 @@ button {
 }
 
 .text-intro {
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -963,7 +968,7 @@ button {
   }
 }
 
-.nature-sounds {
+.text-sounds {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -972,12 +977,36 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0px 10% 5% 10%;
-  margin: 0px;
   background-image: url("../resources/form.svg");
   background-repeat: no-repeat;
 }
 
+.btn-sound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: -5% 10% 20px 0px;
+}
+
 .river-video {
+  height: 70%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.meditacion-video {
   height: 70%;
   width: 100%;
   -o-object-fit: cover;

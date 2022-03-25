@@ -70,7 +70,8 @@
   </section>
 
   <section class="world">
-  <div class="text-sitios">
+  <div class="text-places">
+    <h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
     <h2> 150 SITIOS QUE VISITAR POR EL MUNDO</h2>
     <P>Descubre todos los lugares en los que puedes relajarte. Videos Full HD realizados por nuestro equipo de grabación y fotografía, especilistas en espacios naturales. Si tienes tu propio lugar idílico añadelo y disfruta de el en todo momento. </P>
     <div class="btns-dowload">
@@ -87,5 +88,6 @@
 
   <?php include('./php/footer.php')?>
   <script src="./js/menu.js"></script>
-</body>
+  <script src="./js/numbers.js"></script>
+  </body>
 </html>

@@ -15,7 +15,7 @@
 }
 
 .text-intro{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     padding: 0px 10%;
     margin-top: -40%;
@@ -26,18 +26,33 @@
         margin-top: 15%;
 }}
 
-.nature-sounds{
+.text-sounds{
     display:flex;
     flex-direction: column;
     padding: 0px 10% 5% 10%;
-    margin: 0px;
     background-image: url("../resources/form.svg");
     background-repeat: no-repeat;
 }
 
+
+.btn-sound{
+    display: flex;
+    flex-direction: row;
+    align-items:  flex-end;
+    justify-content: flex-end;
+    margin: -5% 10% 20px 0px;
+}
 .river-video{
     height: 70%;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
+}
+
+.meditacion-video{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+
 }
