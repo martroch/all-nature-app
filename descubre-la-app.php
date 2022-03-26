@@ -8,8 +8,9 @@
     </section>
     <section class="text-sounds">
         <h2>SONIDOS DE LA NATURALEZA</h2>
-        <p>Cuando salimos de la ciudad el fin de semana para ir a una zona rural o a la montaña o cuando damos un paseo por la playa conseguimos alcanzar una sensación de calma que difícilmente logramos en nuestro día a día.<br>
-        Escuchar los sonidos de la naturaleza o sumergirse en entornos naturales produce una reducción de los niveles de estrés, favoreciendo una actitud más positiva.</p>
+        <p>Cuando salimos de la ciudad el fin de semana para ir a una zona rural o a la montaña o cuando damos un paseo por la playa, conseguimos alcanzar una sensación de calma que difícilmente logramos en nuestro día a día. <br>
+        Escuchar los sonidos de la naturaleza o sumergirse en entornos naturales produce una reducción de los niveles de estrés, favoreciendo una actitud más positiva.
+        </p>
     </section>
     <div class="btn-sound btn-sound-1">   
         <p class="btn-sound-text"> Sonido off</p>
@@ -25,10 +26,10 @@
     </div>
     <video src="./resources/sound-river-video.webm" muted loop autoplay id="river-video" class="river-video"></video>
     
-    <section class="text-sounds">
+    <section class="text-sounds text-sounds-10">
         <h2>MEDITACIÓN GUIADA</h2>
-        <p>La meditación guiada es una herramienta que permite, mediante palabras e imágenes, dejar de lado emociones negativas como el dolor, el estrés y las preocupaciones del día a día, ayudándonos a conectar con nuestro interior. Ayuda a manejar el estres y disminuir nos problemas. <br>
-        En ALLNatur app contamos con un equipo de guias de meditación especializados que junto a los video de naturaleza inmersivos te permite desconectar</p>
+        <p>La meditación guiada es una herramienta que permite, mediante palabras e imágenes, dejar de lado emociones negativas como el dolor, el estrés y las preocupaciones del día a día, ayudándonos a conectar con nuestro interior. Ayuda a manejar el estrés y disminuir los problemas. <br>
+        En ALLNatur app contamos con un equipo de guías de meditación especializada que junto a los videos de naturaleza inmersivos te permite desconectarr</p>
     </section>
     <div class="btn-sound btn-sound-2">   
         <p class="btn-sound-text"> Sonido off</p>
@@ -43,7 +44,17 @@
     </svg>
     </div>
     <video src="./resources/sound-river-video.webm" muted loop autoplay id="meditacion-video" class="meditacion-video"></video>
-    
+    <section class="last-secction-discober">
+        <h2>DESCARGA LA APP ALL NATURE</h2>
+        <div class="btns-dowload">
+            <button class="btn-dowload">
+                <img src="./resources/apple.svg" alt="">
+                    Dowload on the<br> APP STORE</button>
+            <button class="btn-dowload">
+                    <img src="./resources/play-store.svg" alt="">
+                    Dowload on the<br> PLAY STORE</button>
+        </div>
+    </section>
 <?php include('./php/footer.php')?>
 <script src="./js/video.js"></script>
 </body>

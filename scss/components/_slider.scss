@@ -1,0 +1,38 @@
+.swiper {
+    width:70vw;
+    height: 70vh;
+    margin-bottom: 10%;
+        
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    
+}
+.sld{
+    background-position: 100% 100%;
+    background-size: cover;
+    &-1{
+        background-image: url(../resources/slider.jpg);
+    }
+    &-2{
+        background-image: url(../resources/slider-2.jpg);
+    }
+    &-3{
+        background-image: url(../resources/slider-3.jpg);
+    }
+    &-4{
+        background-image: url(../resources/slider-4.jpg);
+    }
+    &-5{
+        background-image: url(../resources/slider-5.jpg);
+    }
+    &-6{
+        background-image: url(../resources/slider-1.jpg);
+    }
+}

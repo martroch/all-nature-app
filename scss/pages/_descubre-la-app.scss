@@ -10,18 +10,16 @@
     z-index: -2;
     overflow: hidden;
     margin: 0px;;
-    
-
 }
 
 .text-intro{
-    height: 80vh;
+    height: 70vh;
     display: flex;
+    justify-content: center;
     padding: 0px 10%;
-    margin-top: -40%;
+    
     text-align: center;
     text-transform: uppercase;
-
     @include respond-to(small){
         margin-top: 15%;
 }}
@@ -32,9 +30,10 @@
     padding: 0px 10% 5% 10%;
     background-image: url("../resources/form.svg");
     background-repeat: no-repeat;
+    &-10{
+        margin-top: 10%;
+    }
 }
-
-
 .btn-sound{
     display: flex;
     flex-direction: row;
@@ -54,5 +53,13 @@
     width: 100%;
     object-fit: cover;
     overflow: hidden;
+}
 
+.last-secction-discober{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    text-align: center;
 }
