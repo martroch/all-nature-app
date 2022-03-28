@@ -384,6 +384,9 @@ p {
   margin-top: -45px;
   color: #FEFAF3;
 }
+.text-btn__brown {
+  color: #CDB39B;
+}
 
 .btn-sound-text {
   font-family: "Noto Serif Display";
@@ -469,6 +472,11 @@ button {
   .btn-organic__right {
     margin: 10% 20% 0px;
   }
+}
+.btn-organic__sigin {
+  margin-top: 10px;
+  color: #CDB39B;
+  stroke: #CDB39B;
 }
 
 .swiper {
@@ -1238,4 +1246,89 @@ button {
   inset: 0;
   background: -webkit-gradient(linear, right top, left top, from(rgba(30, 35, 40, 0)), to(#1E2328));
   background: linear-gradient(270deg, rgba(30, 35, 40, 0) 0%, #1E2328 100%);
+}
+
+.input {
+  padding: 18px;
+  border: none;
+  border: 2px solid #FEFAF3;
+  border-radius: 12px;
+  background-color: transparent;
+  margin: 12px;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10%;
+  width: 100%;
+  height: 100vh;
+  margin-top: -60%;
+}
+@media (min-width: 48em) {
+  .contact {
+    margin: 0px;
+    padding: 20%;
+  }
+}
+
+.singin {
+  border-top: 1px solid #CDB39B;
+  margin-top: 20%;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media (min-width: 48em) {
+  .singin {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5%;
+  }
 }
