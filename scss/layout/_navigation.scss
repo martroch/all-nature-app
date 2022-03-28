@@ -1,6 +1,7 @@
 
 .nav-bar{
     position: absolute;
+    z-index: 1;
     right: 0;
     margin-right: 10%;
     cursor:pointer;
@@ -45,6 +46,7 @@
 .mostrar{
     background-color: $dark-grey;
     margin: 10% 10px 0px 0px;
+    z-index: 2;
 }
 
 @media(min-width:1024px){

@@ -1,7 +1,30 @@
 .swiper {
-    width:70vw;
-    height: 70vh;
+    width: 372px;
+    height: 241px;
     margin-bottom: 10%;
+    @include respond-to(small){
+        width: 691px;
+        height: 447px;
+    }
+    @include respond-to(large){
+        width: 1041px;
+        height: 669px;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        top: 0;
+        left: 27.5%;
+        right: 0;
+        bottom: 0;
+        width: 45%;
+        background-image: url(../resources/phone.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
         
 }
 
@@ -17,22 +40,36 @@
 .sld{
     background-position: 100% 100%;
     background-size: cover;
+    border-radius: 10px;
+    @include respond-to(small){
+    border-radius: 35px;}
+    @include respond-to(large){
+        border-radius: 40px;}
     &-1{
         background-image: url(../resources/slider.jpg);
+        @include respond-to(small){
+            border: $unit solid $dark-grey;}
     }
     &-2{
         background-image: url(../resources/slider-2.jpg);
+        
     }
     &-3{
         background-image: url(../resources/slider-3.jpg);
+        @include respond-to(small){
+            border: $unit solid $dark-grey;}
     }
     &-4{
         background-image: url(../resources/slider-4.jpg);
+        @include respond-to(small){
+            border: $unit solid $dark-grey;}
     }
     &-5{
         background-image: url(../resources/slider-5.jpg);
     }
     &-6{
         background-image: url(../resources/slider-1.jpg);
+        @include respond-to(small){
+            border: $unit solid $dark-grey;}
     }
 }

@@ -1,4 +1,4 @@
-<?php $title="Discober de app";?>
+<?php $title="ubications";?>
 <?php include('./php/head.php')?>
 <body>
     <?php include('./php/nav.php')?>

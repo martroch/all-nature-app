@@ -472,9 +472,36 @@ button {
 }
 
 .swiper {
-  width: 70vw;
-  height: 70vh;
+  width: 372px;
+  height: 241px;
   margin-bottom: 10%;
+}
+@media (min-width: 48em) {
+  .swiper {
+    width: 691px;
+    height: 447px;
+  }
+}
+@media (min-width: 1600px) {
+  .swiper {
+    width: 1041px;
+    height: 669px;
+  }
+}
+.swiper:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  top: 0;
+  left: 27.5%;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  background-image: url(../resources/phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .swiper-slide {
@@ -493,9 +520,25 @@ button {
 .sld {
   background-position: 100% 100%;
   background-size: cover;
+  border-radius: 10px;
+}
+@media (min-width: 48em) {
+  .sld {
+    border-radius: 35px;
+  }
+}
+@media (min-width: 1600px) {
+  .sld {
+    border-radius: 40px;
+  }
 }
 .sld-1 {
   background-image: url(../resources/slider.jpg);
+}
+@media (min-width: 48em) {
+  .sld-1 {
+    border: 12px solid #1E2328;
+  }
 }
 .sld-2 {
   background-image: url(../resources/slider-2.jpg);
@@ -503,14 +546,29 @@ button {
 .sld-3 {
   background-image: url(../resources/slider-3.jpg);
 }
+@media (min-width: 48em) {
+  .sld-3 {
+    border: 12px solid #1E2328;
+  }
+}
 .sld-4 {
   background-image: url(../resources/slider-4.jpg);
+}
+@media (min-width: 48em) {
+  .sld-4 {
+    border: 12px solid #1E2328;
+  }
 }
 .sld-5 {
   background-image: url(../resources/slider-5.jpg);
 }
 .sld-6 {
   background-image: url(../resources/slider-1.jpg);
+}
+@media (min-width: 48em) {
+  .sld-6 {
+    border: 12px solid #1E2328;
+  }
 }
 
 .main-footer {
@@ -555,6 +613,7 @@ button {
 
 .nav-bar {
   position: absolute;
+  z-index: 1;
   right: 0;
   margin-right: 10%;
   cursor: pointer;
@@ -596,6 +655,7 @@ button {
 .mostrar {
   background-color: #1E2328;
   margin: 10% 10px 0px 0px;
+  z-index: 2;
 }
 
 @media (min-width: 1024px) {
@@ -1131,9 +1191,9 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .share-btn {
