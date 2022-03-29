@@ -17,7 +17,7 @@
     ?>
 
 <nav class="top top__nav">
-    <a href="#" class="top top__logo"> 
+    <a href="<?php echo $path; ?>" class="top top__logo"> 
         <img src="<?php echo $path; ?>resources/logo-all-nature.svg" alt="All Nature logo" width="200px">
     </a>
     <span class="nav-bar" id="btnMenu"><img src="<?php echo $path; ?>resources/icon-menu.svg" alt=""></span>

@@ -89,7 +89,7 @@
   <img src="resources/world.png" alt="image-world" class="img-world">
   </section>
 
-  <?php include('./php/footer.php')?>
+  <?php include('php/footer.php')?>
   <script src="js/menu.js"></script>
   <script src="js/numbers.js"></script>
   </body>
