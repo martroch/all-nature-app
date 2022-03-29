@@ -1,7 +1,9 @@
 <?php $title="log-in";?>
-<?php include('./php/head.php')?>
+<?php $path="../";?>
+<?php $active=true;?>
+<?php include($path . 'php/head.php')?>
 <body>
-    <?php include('./php/nav.php')?>
+    <?php include($path . 'php/nav.php')?>
 
     <form name="contact" class="contact">
         <h1 class="login">Iniciar sesión</h1>
@@ -29,8 +31,8 @@
     </form>
         <div class="contact-list"></div>
 
-    <?php include('./php/footer.php')?>
-    <script src="./js/login.js"></script>
+    <?php include($path . 'php/footer.php')?>
+    <script src="<?php echo $path; ?>js/login.js"></script>
 </body>
 
 </html>
