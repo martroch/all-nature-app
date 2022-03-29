@@ -18,9 +18,9 @@
 
 <nav class="top top__nav">
     <a href="#" class="top top__logo"> 
-        <img src="./resources/logo-all-nature.svg" alt="All Nature logo" width="200px">
+        <img src="<?php echo $path; ?>resources/logo-all-nature.svg" alt="All Nature logo" width="200px">
     </a>
-    <span class="nav-bar" id="btnMenu"><img src="./resources/icon-menu.svg" alt=""></span>
+    <span class="nav-bar" id="btnMenu"><img src="<?php echo $path; ?>resources/icon-menu.svg" alt=""></span>
     <ul class="menu" id="menu">
         <li class="menu__item"><a href="<?php echo $path; ?>" class="menu__link <?php echo $indexActive;?>">Home</a></li>
         <li class="menu__item"><a href="<?php echo $path; ?>descubre-la-app" class="menu__link <?php echo $active;?>">Descubre la app</a></li>

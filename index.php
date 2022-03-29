@@ -1,5 +1,6 @@
 <?php $title="All Nature App";?>
 <?php $active="home";?>
+<?php $path="";?>
 <?php include('php/head.php')?>
 
 <body>

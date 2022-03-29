@@ -1,9 +1,9 @@
 <?php $title="ubications";?>
 <?php $path="../";?>
 <?php $active=true;?>
-<?php include('../php/head.php')?>
+<?php include($path . 'php/head.php')?>
 <body>
-    <?php include('../php/nav.php')?>
+    <?php include($path . 'php/nav.php')?>
     <section class="intro-ubication">
         <div class="text-ubi">
             <h1 class="">¿HAS ENCONTRADO TU LUGAR EN EL MUNDO?</h1>
@@ -19,7 +19,7 @@
         </div>
         <div class="video-tea">
             <video autoplay muted loop id=""class="">
-                <source src="./resources/tea.webm" type="video/webm">
+                <source src="<?php echo $path; ?>resources/tea.webm" type="video/webm">
             </video>
         </div>
     </section>
@@ -31,14 +31,14 @@
         </div>
         <div class="btns-dowload share-btn">
             <button class="btn-dowload">
-                <img src="./resources/apple.svg" alt="">
+                <img src="<?php echo $path; ?>resources/apple.svg" alt="">
                     Dowload on the<br> APP STORE</button>
             <button class="btn-dowload">
-                    <img src="./resources/play-store.svg" alt="">
+                    <img src="<?php echo $path; ?>resources/play-store.svg" alt="">
                     Dowload on the<br> PLAY STORE</button>
         </div>
     </section>
-    <?php include('./php/slider.php')?>
-    <?php include('./php/footer.php')?>
+    <?php include($path . 'php/slider.php')?>
+    <?php include($path . 'php/footer.php')?>
 </body>
 </html>
