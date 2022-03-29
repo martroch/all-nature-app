@@ -1,9 +1,11 @@
 <?php $title="Discober de app";?>
-<?php include('./php/head.php')?>
+<?php $path="../";?>
+<?php $active=true;?>
+<?php include($path . 'php/head.php')?>
 <body>
-    <?php include('./php/nav.php')?>
+    <?php include($path . 'php/nav.php')?>
     <section>
-        <img src="./resources/natural-meditation.jpg" alt="" class="intro-img">
+        <img src="<?php echo $path; ?>resources/natural-meditation.jpg" alt="" class="intro-img">
         <h1 class="text-intro">Los entornos naturales Aumentan nuestra productividad, mejoran nuestro sueño y nos ayudan a relajarnos</h1>
     </section>
     <section class="text-sounds">
@@ -24,7 +26,7 @@
             <path d="M19 6.59V0" stroke="#FEFAF3"/>
     </svg>
     </div>
-    <video src="./resources/sound-river-video.webm" muted loop autoplay id="river-video" class="river-video"></video>
+    <video src="<?php echo $path; ?>resources/sound-river-video.webm" muted loop autoplay id="river-video" class="river-video"></video>
     
     <section class="text-sounds text-sounds-10">
         <h2>MEDITACIÓN GUIADA</h2>
@@ -43,19 +45,19 @@
             <path d="M19 6.59V0" stroke="#FEFAF3"/>
     </svg>
     </div>
-    <video src="./resources/sound-river-video.webm" muted loop autoplay id="meditacion-video" class="meditacion-video"></video>
+    <video src="<?php echo $path; ?>resources/sound-river-video.webm" muted loop autoplay id="meditacion-video" class="meditacion-video"></video>
     <section class="last-secction-discober">
         <h2>DESCARGA LA APP ALL NATURE</h2>
         <div class="btns-dowload">
             <button class="btn-dowload">
-                <img src="./resources/apple.svg" alt="">
+                <img src="<?php echo $path; ?>resources/apple.svg" alt="">
                     Dowload on the<br> APP STORE</button>
             <button class="btn-dowload">
-                    <img src="./resources/play-store.svg" alt="">
+                    <img src="<?php echo $path; ?>resources/play-store.svg" alt="">
                     Dowload on the<br> PLAY STORE</button>
         </div>
     </section>
-<?php include('./php/footer.php')?>
-<script src="./js/video.js"></script>
+<?php include($path . 'php/footer.php')?>
+<script src="<?php echo $path; ?>js/video.js"></script>
 </body>
 </html>

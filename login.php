@@ -1,4 +1,4 @@
-<?php $title="ubications";?>
+<?php $title="log-in";?>
 <?php include('./php/head.php')?>
 <body>
     <?php include('./php/nav.php')?>

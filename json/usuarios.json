@@ -1,0 +1,28 @@
+[ 
+    {
+    "user-name": "mart.mr",
+    "name": "Marta Martínez Rocher",
+    "email": "martinezrochermarta@gmail.com",
+    "contraseña":"******",
+    "img-user": "url(../resources/)",
+    "sentence": "Las ubicaciones que más sueles visitar son las relacionadas con el agua",
+    "img-1": "url(../resources/)",
+    "img-2": "url(../resources/)",
+    "img-3": "url(../resources/)",
+    "img-4": "url(../resources/)"
+},
+
+{
+    "user-name": "binca",
+    "name": "Binca Shinaasi Asanova",
+    "email": "bincasa@gmail.com",
+    "contraseña":"******",
+    "img-user": "url(../resources/)",
+    "sentence": "Las ubicaciones que más sueles visitar son las relacionadas con el busque",
+    "img-1": "url(../resources/)",
+    "img-2": "url(../resources/)",
+    "img-3": "url(../resources/)",
+    "img-4": "url(../resources/)"
+}
+
+]

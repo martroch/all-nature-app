@@ -1,7 +1,9 @@
 <?php $title="ubications";?>
-<?php include('./php/head.php')?>
+<?php $path="../";?>
+<?php $active=true;?>
+<?php include('../php/head.php')?>
 <body>
-    <?php include('./php/nav.php')?>
+    <?php include('../php/nav.php')?>
     <section class="intro-ubication">
         <div class="text-ubi">
             <h1 class="">¿HAS ENCONTRADO TU LUGAR EN EL MUNDO?</h1>

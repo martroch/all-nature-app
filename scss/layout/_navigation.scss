@@ -35,7 +35,8 @@
         padding-bottom: 20px;
         border-bottom: solid 4px $brown;}
     
-    &:active{
+    &--active{
+        margin: -2px;
         padding-bottom: 20px;
         border-bottom: solid 4px $brown;
     }

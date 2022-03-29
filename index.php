@@ -1,10 +1,12 @@
 <?php $title="All Nature App";?>
-<?php include('./php/head.php')?>
+<?php $active="home";?>
+<?php include('php/head.php')?>
+
 <body>
-  <?php include('./php/nav.php')?>
+  <?php include('php/nav.php')?>
   <div class="intro-page">
     <video autoplay muted loop id="background-video" class="background-video">
-      <source src="./resources/sea-video.webm" type="video/webm">
+      <source src="resources/sea-video.webm" type="video/webm">
     </video>
     <div class="content-home">
       <h1>RELÁJATE A TRAVÉS DE LA NATURALEZA</h1>
@@ -14,29 +16,29 @@
   
   <section class="dowload">
     <div class="explanation">
-      <img src="./resources/dashed-line.svg" alt="line" height="100px">
+      <img src="resources/dashed-line.svg" alt="line" height="100px">
       <h2>EXPLORA LA NATURALEZA A TRAVÉS DE TU MENTE</h2>
       <div class="traslate-text">
         <h3 >Con la APP All Natural conseguirás alcanzar la relajación a través de espacios naturales.</h3>
         <p>Disfruta de la naturaleza desde cualquier lugar. Consigue llegar a un punto de relajación óptimo mediante el odio y la vista. Los espacios naturales nos permiten conectar y son necesarios para nuestro bienestar mental y físico.</p>
         <div class="btns-dowload">
           <button class="btn-dowload">
-            <img src="./resources/apple.svg" alt="">
+            <img src="resources/apple.svg" alt="">
             Dowload on the<br> APP STORE</button>
           <button class="btn-dowload">
-            <img src="./resources/play-store.svg" alt="">
+            <img src="resources/play-store.svg" alt="">
             Dowload on the<br> PLAY STORE</button>
         </div>
       </div>
-      <img src="./resources/dashed-line.svg" alt="line" height="100px">
+      <img src="resources/dashed-line.svg" alt="line" height="100px">
     </div>
-    <img src="./resources/mobile-app.png" alt="mobile-app" width="350px">    
+    <img src="resources/mobile-app.png" alt="mobile-app" width="350px">    
   </section>
 
   <section class="vd-text">
     <div class="vd-fire">
       <video autoplay muted loop id=""class="">
-      <source src="./resources/fire.webm" type="video/webm">
+      <source src="resources/fire.webm" type="video/webm">
       </video>
     </div>
     <div>
@@ -54,7 +56,7 @@
   <section class="vd-text vd-text__cascada">
     <div class="vd-cascada">
       <video autoplay muted loop id=""class="">
-      <source src="./resources/cascada.webm" type="video/webm">
+      <source src="resources/cascada.webm" type="video/webm">
       </video>
     </div>
     <div class="content-cascada">
@@ -76,18 +78,18 @@
     <P>Descubre todos los lugares en los que puedes relajarte. Videos Full HD realizados por nuestro equipo de grabación y fotografía, especilistas en espacios naturales. Si tienes tu propio lugar idílico añadelo y disfruta de el en todo momento. </P>
     <div class="btns-dowload">
       <button class="btn-dowload">
-        <img src="./resources/apple.svg" alt="">
+        <img src="resources/apple.svg" alt="">
         Dowload on the<br> APP STORE</button>
       <button class="btn-dowload">
-        <img src="./resources/play-store.svg" alt="">
+        <img src="resources/play-store.svg" alt="">
         Dowload on the<br> PLAY STORE</button>
     </div>
   </div>
-  <img src="./resources/world.png" alt="image-world" class="img-world">
+  <img src="resources/world.png" alt="image-world" class="img-world">
   </section>
 
   <?php include('./php/footer.php')?>
-  <script src="./js/menu.js"></script>
-  <script src="./js/numbers.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/numbers.js"></script>
   </body>
 </html>

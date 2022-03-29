@@ -655,7 +655,8 @@ button {
   padding-bottom: 20px;
   border-bottom: solid 4px #CDB39B;
 }
-.menu__link:active {
+.menu__link--active {
+  margin: -2px;
   padding-bottom: 20px;
   border-bottom: solid 4px #CDB39B;
 }
