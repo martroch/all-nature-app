@@ -5,13 +5,13 @@
 <body>
     <?php include($path . 'php/nav.php')?>
 
-    <form name="contact" class="contact">
+    <form name="contact" class="contact" action="/All%20Nature%20app/area-de-usuario">
         <h1 class="login">Iniciar sesión</h1>
         <div class="fields">
                 <label for="name" class="label">Nombre de usuario o email</label>
                 <input class="input" id="name" placeholder="user@gmail.com" name="name" required>
                 <label for="name" class="label">Contraseña</label>
-                <input class="input" id="password" placeholder="********" type="password" required name="email">
+                <input class="input" id="password" placeholder="********" type="password" required>
         </div>
         <button class="btn-organic" id="add">
             <svg viewBox="0 0 157 70" class="svg-1">
