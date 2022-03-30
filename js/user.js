@@ -7,5 +7,6 @@ axios.get(`../json/usuarios.json`)
         const selectedUser = response.data.find(function(user){ return user.username === userId; })
         document.querySelector('.name').textContent = selectedUser.name;
         document.querySelector('.email').textContent = selectedUser.email;
-        document.querySelector('.image').src = selectedUse.imguser;
+        document.querySelector('.username').textContent = selectedUser.username;
+        document.querySelector('.imguser').src = selectedUser.imguser;
     });

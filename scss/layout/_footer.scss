@@ -8,6 +8,12 @@
     text-align: center;
     padding: 2% 10%;
 
+    &__icons{
+        gap:10px;
+        flex-direction: row;
+        
+    }
+
     @include respond-to(small){
         display: flex;
         flex-direction: row;

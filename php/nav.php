@@ -25,6 +25,6 @@
         <li class="menu__item"><a href="<?php echo $path; ?>" class="menu__link <?php echo $indexActive;?>">Home</a></li>
         <li class="menu__item"><a href="<?php echo $path; ?>descubre-la-app" class="menu__link <?php echo $active;?>">Descubre la app</a></li>
         <li class="menu__item"><a href="<?php echo $path; ?>locations" class="menu__link <?php echo $active;?>">Ubicaciones</a></li>
-        <li class="menu__item"><a href="<?php echo $path; ?>area-de-usuario" class="menu__link <?php echo $active;?>">Área de usuario</a></li>
+        <li class="menu__item"><a href="<?php echo $path; ?>login" class="menu__link <?php echo $active;?>">Área de usuario</a></li>
     </ul>
 </nav>

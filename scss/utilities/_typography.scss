@@ -67,6 +67,9 @@ p{
     &__brown{
         color: $brown;
     }
+    &__home{
+        margin-top:-64px;
+    }
     
 }
 
@@ -78,5 +81,14 @@ p{
     color: $white;
     margin-right: $unit;
     margin-bottom: -5px;
+
+}
+.small-text{
+    font-family: 'roboto';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    margin: 20px 0px;
+    text-align: left;
 
 }
