@@ -1295,6 +1295,7 @@ button {
   border-radius: 12px;
   background-color: transparent;
   margin: 12px;
+  color: #FEFAF3;
 }
 
 .login {
@@ -1394,7 +1395,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5% 15%;
+  padding: 5% 10% 5% 0px;
   gap: 10%;
 }
 
@@ -1439,6 +1440,11 @@ button {
   padding-bottom: -20px;
 }
 
-.imguser {
-  border-radius: 50%;
+.imguser:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 35, 40, 0.36)), to(#1E2328));
+  background: linear-gradient(180deg, rgba(30, 35, 40, 0.36) 0%, #1E2328 100%);
 }

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5% 15%;
+    padding: 5% 10% 5% 0px;
     gap: 10%;
 }
 .content-user{
@@ -26,5 +26,11 @@
 }
 
 .imguser{
-    border-radius: 50%;
+    &:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(30, 35, 40, 0.36) 0%, #1E2328 100%);
+    }
 }
