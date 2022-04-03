@@ -9,4 +9,14 @@ axios.get(`../json/usuarios.json`)
         document.querySelector('.email').textContent = selectedUser.email;
         document.querySelector('.username').textContent = selectedUser.username;
         document.querySelector('.imguser').src = selectedUser.imguser;
+        document.querySelector('.sld1').src = selectedUser.sld1;
+        document.querySelector('.sld2').src = selectedUser.sld2;
+        document.querySelector('.sld3').src = selectedUser.sld3;
+        document.querySelector('.sld4').src = selectedUser.sld4;
+        document.querySelector('.sld5').src = selectedUser.sld5;
+        document.querySelector('.sld6').src = selectedUser.sld6;
+        document.querySelector('.sld7').src = selectedUser.sld7;
+        document.querySelector('.sld8').src = selectedUser.sld8;
+        document.querySelector('.sentence').textContent = selectedUser.sentence;
+
     });

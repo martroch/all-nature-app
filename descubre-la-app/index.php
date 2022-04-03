@@ -45,7 +45,7 @@
             <path d="M19 6.59V0" stroke="#FEFAF3"/>
     </svg>
     </div>
-    <video src="<?php echo $path; ?>resources/sound-river-video.webm" muted loop autoplay id="meditacion-video" class="meditacion-video"></video>
+    <video src="<?php echo $path; ?>resources/sound-meditation.webm" muted loop autoplay id="meditacion-video" class="meditacion-video"></video>
     <section class="last-secction-discober">
         <h2>DESCARGA LA APP ALL NATURE</h2>
         <div class="btns-dowload">

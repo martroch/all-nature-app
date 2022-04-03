@@ -6,10 +6,15 @@
     "contraseña":"******",
     "imguser": "../resources/marta-user.jpg",
     "sentence": "Las ubicaciones que más sueles visitar son las relacionadas con el agua",
-    "img1": "../resources/",
-    "img2": "../resources/",
-    "img3": "../resources/",
-    "img4": "../resources/"
+    "sld1": "../resources/water-1.jpg",
+    "sld2": "../resources/water-2.jpg",
+    "sld3": "../resources/water-3.jpg",
+    "sld4": "../resources/water-4.jpg",
+    "sld5": "../resources/water-5.jpg",
+    "sld6": "../resources/water-6.jpg",
+    "sld7": "../resources/water-7.jpg",
+    "sld8": "../resources/water-8.jpg",
+    "sld9": "../resources/water-9.jpg"
 },
 
 {
@@ -18,10 +23,10 @@
     "email": "bincas@gmail.com",
     "contraseña":"******",
     "imguser": "../resources/binca-user.jpg",
-    "sentence": "Las ubicaciones que más sueles visitar son las relacionadas con el busque",
-    "img1": "../resources/",
-    "img2": "../resources/",
-    "img3": "../resources/",
-    "img4": "../resources/"
+    "sentence": "Las ubicaciones que más sueles visitar son las relacionadas con el bosque",
+    "sld1": "../resources/forest-1.jpg",
+    "sld2": "../resources/forest-3.jpg",
+    "sld3": "../resources/forest-2.jpg",
+    "sld4": "../resources/forest-4.jpg"
 }
 ]

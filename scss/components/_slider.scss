@@ -1,4 +1,4 @@
-.swiper {
+.swiper-ub {
     width: 372px;
     height: 241px;
     margin-bottom: 10%;
@@ -28,7 +28,7 @@
         
 }
 
-.swiper-slide {
+.swiper-slide-ub {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -71,5 +71,18 @@
         background-image: url(../resources/slider-1.jpg);
         @include respond-to(small){
             border: $unit solid $dark-grey;}
+    }
+}
+
+.swiper-user{
+    height: 40%;
+}
+
+.swiper-pagination-bullet{
+    background: $white !important;
+    opacity: 60% !important;
+    &-active{
+        background: $brown !important;
+        opacity: 100% !important;
     }
 }
