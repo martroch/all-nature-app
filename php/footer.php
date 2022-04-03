@@ -10,4 +10,5 @@
         <img src="<?php echo $path; ?>resources/logo-all-nature-grey.svg" alt="All Nature logo" width="120px">
     </a>
 </footer>
+<script src="<?php echo $path; ?>js/menu.js"></script>
 
