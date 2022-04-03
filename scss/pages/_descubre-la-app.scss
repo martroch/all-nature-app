@@ -13,15 +13,17 @@
 }
 
 .text-intro{
-    height: 70vh;
+    margin-top: -30%;
+    margin-bottom: 30%;
     display: flex;
     justify-content: center;
     padding: 0px 10%;
-    
+    height: 100vh;
     text-align: center;
     text-transform: uppercase;
     @include respond-to(small){
         margin-top: 15%;
+        margin-bottom: 0px;
 }}
 
 .text-sounds{
@@ -30,9 +32,16 @@
     padding: 0px 10% 5% 10%;
     background-image: url("../resources/form.svg");
     background-repeat: no-repeat;
-    &-10{
-        margin-top: 10%;
-    }
+    margin-top: -40%;
+    
+    @include respond-to(medium){
+        margin-top: -10%
+    ;}}
+.text-meditation{
+    display:flex;
+    flex-direction: column;
+    padding:5% 10%;
+    background-image: url("../resources/form.svg");
 }
 .btn-sound{
     display: flex;

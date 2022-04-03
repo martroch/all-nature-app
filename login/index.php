@@ -5,7 +5,7 @@
 <body>
     <?php include($path . 'php/nav.php')?>
 
-    <form name="contact" class="contact" action="/All%20Nature%20app/area-de-usuario">
+    <form name="contact" class="contact" action="<?php echo $path; ?>area-de-usuario">
         <h1 class="login">Iniciar sesión</h1>
         <div class="fields">
                 <label for="name" class="label">Nombre de usuario o email</label>
@@ -32,7 +32,6 @@
         <div class="contact-list"></div>
 
     <?php include($path . 'php/footer.php')?>
-    <script src="<?php echo $path; ?>js/login.js"></script>
 </body>
 
 </html>

@@ -75,7 +75,9 @@
 }
 
 .swiper-user{
-    height: 40%;
+    height: 300px;
+    @include respond-to(small){
+    height: 40%;}
 }
 
 .swiper-pagination-bullet{

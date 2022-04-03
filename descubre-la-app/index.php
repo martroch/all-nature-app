@@ -28,7 +28,7 @@
     </div>
     <video src="<?php echo $path; ?>resources/sound-river-video.webm" muted loop autoplay id="river-video" class="river-video"></video>
     
-    <section class="text-sounds text-sounds-10">
+    <section class="text-meditation">
         <h2>MEDITACIÓN GUIADA</h2>
         <p>La meditación guiada es una herramienta que permite, mediante palabras e imágenes, dejar de lado emociones negativas como el dolor, el estrés y las preocupaciones del día a día, ayudándonos a conectar con nuestro interior. Ayuda a manejar el estrés y disminuir los problemas. <br>
         En ALLNatur app contamos con un equipo de guías de meditación especializada que junto a los videos de naturaleza inmersivos te permite desconectarr</p>

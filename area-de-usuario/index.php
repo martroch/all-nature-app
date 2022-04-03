@@ -46,7 +46,7 @@
     </section>
 
 
-    <section class="text-sounds share-all">
+    <section class="text-meditation">
         <div class="text-share">
             <h2>¿TIENES UN ESPACIO NUEVO?</h2>
             <h3>¡COMPARTE TUS ESPACIOS!</h3>
