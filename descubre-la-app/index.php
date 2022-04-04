@@ -26,7 +26,7 @@
             <path d="M19 6.59V0" stroke="#FEFAF3"/>
     </svg>
     </div>
-    <video src="<?php echo $path; ?>resources/sound-river-video.webm" muted loop autoplay id="river-video" class="river-video"></video>
+    <video src="<?php echo $path; ?>resources/sound-river-video.mp4" loop controls id="river-video" class="river-video" poster="<?php echo $path; ?>resources/sounds-img.jpg"></video>
     
     <section class="text-meditation">
         <h2>MEDITACIÓN GUIADA</h2>
@@ -45,7 +45,7 @@
             <path d="M19 6.59V0" stroke="#FEFAF3"/>
     </svg>
     </div>
-    <video src="<?php echo $path; ?>resources/sound-meditation.webm" muted loop autoplay id="meditacion-video" class="meditacion-video"></video>
+    <video src="<?php echo $path; ?>resources/sound-meditation.mp4" loop controls id="meditacion-video" class="meditacion-video" poster="<?php echo $path; ?>resources/meditacion-img.jpg"></video>
     <section class="last-secction-discober">
         <h2>DESCARGA LA APP ALL NATURE</h2>
         <div class="btns-dowload">

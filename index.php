@@ -5,15 +5,10 @@
 
 <body>
   <?php include('php/nav.php')?>
-  <script>
-  var bgvideo = document.getElementById("BgVideo");
-  bgvideo.muted = true;
-  bgvideo.play(); 
-  </script>
 
   <div class="intro-page">
-    <video autoplay muted loop id="background-video" class="background-video BgVideo" poster="resources/sea-img.jpg">
-      <source src="resources/sea-video.webm" type="video/webm">
+    <video autoplay muted loop id="background-video" class="background-video" poster="resources/sea-img.jpg">
+      <source src="resources/vd-sea.webm" type="video/webm">
     </video>
     <div class="content-home">
       <h1>RELÁJATE A TRAVÉS DE LA NATURALEZA</h1>
@@ -52,7 +47,7 @@
 
   <section class="vd-text">
     <div class="vd-fire">
-      <video autoplay muted loop id=""class="BgVideo">
+      <video autoplay muted loop id=""class="" poster="resources/fire-img.jpg">
       <source src="resources/fire.webm" type="video/webm">
       </video>
     </div>
@@ -71,7 +66,7 @@
 
   <section class="vd-text vd-text__cascada">
     <div class="vd-cascada">
-      <video autoplay loop id="" class="BgVideo">
+      <video autoplay muted loop id="" class="" poster="resources/cascada-img.jpg">
       <source src="resources/cascada.webm" type="video/webm">
       </video>
     </div>

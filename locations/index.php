@@ -19,7 +19,7 @@
             </button>
         </div>
         <div class="video-tea">
-            <video autoplay muted loop id=""class="">
+            <video autoplay muted loop id=""class="" poster="<?php echo $path; ?>resources/tea-img.jpg">
                 <source src="<?php echo $path; ?>resources/tea.webm" type="video/webm">
             </video>
         </div>
