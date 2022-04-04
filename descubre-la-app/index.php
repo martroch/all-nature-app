@@ -1,6 +1,6 @@
 <?php $title="Discober de app";?>
 <?php $path="../";?>
-<?php $active=true;?>
+<?php $active="descure-la-app";?>
 <?php include($path . 'php/head.php')?>
 <body>
     <?php include($path . 'php/nav.php')?>

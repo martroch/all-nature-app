@@ -5,8 +5,14 @@
 
 <body>
   <?php include('php/nav.php')?>
+  <script>
+  var bgvideo = document.getElementById("BgVideo");
+  bgvideo.muted = true;
+  bgvideo.play(); 
+  </script>
+
   <div class="intro-page">
-    <video autoplay muted loop id="background-video" class="background-video">
+    <video autoplay muted loop id="background-video" class="background-video BgVideo" poster="resources/sea-img.jpg">
       <source src="resources/sea-video.webm" type="video/webm">
     </video>
     <div class="content-home">
@@ -46,7 +52,7 @@
 
   <section class="vd-text">
     <div class="vd-fire">
-      <video autoplay muted loop id=""class="">
+      <video autoplay muted loop id=""class="BgVideo">
       <source src="resources/fire.webm" type="video/webm">
       </video>
     </div>
@@ -65,7 +71,7 @@
 
   <section class="vd-text vd-text__cascada">
     <div class="vd-cascada">
-      <video autoplay muted loop id=""class="">
+      <video autoplay loop id="" class="BgVideo">
       <source src="resources/cascada.webm" type="video/webm">
       </video>
     </div>

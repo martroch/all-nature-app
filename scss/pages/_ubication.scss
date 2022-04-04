@@ -6,11 +6,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: flex-end;
-        margin-top: -40%;
+        margin-top: -30%;
         
         }
     @include respond-to(medium){
-        margin-top: -10%;
+        margin-top: -37px;
         margin-bottom: 10%;
     }
 }
@@ -21,13 +21,15 @@
     text-align: left;
     margin: 5% 0px 50% 5%;
     @include respond-to(medium){
-    margin: 15% -10% 10% 10%;}
+    margin: 0px 0px 0px 10%;}
+    @include respond-to(large){
+    margin: 0px 0px 10% 10%;}
 }
 }
 .share{
     &-all{
         @include respond-to(small){
-        margin-top: 15%;
+        padding-top: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -51,20 +53,18 @@
     top: 0;
     bottom: 0;
     height: 100vh;
-
     overflow: hidden;
     position: relative;
     display: inline-block;
     z-index: -1;
     @include respond-to(small){
         margin-top: 0px;
-        width:60%;
         margin-bottom: -4px;}
     &:after {
         content: "";
         position: absolute;
         inset: 0;
-        background: linear-gradient(180deg, rgba(30, 35, 40, 0) 60%, #1E2328 100%);
+        background: linear-gradient(180deg, rgba(30, 35, 40, 0) 50%, #1E2328 100%);
         @include respond-to(small){background: linear-gradient(270deg, rgba(30, 35, 40, 0) 0%, #1E2328 100%);
         }
 }}

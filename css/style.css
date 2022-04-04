@@ -374,7 +374,7 @@ a {
   font-size: 18px;
   font-weight: lighter;
   letter-spacing: 1px;
-  margin-top: -45px;
+  margin-top: -50px;
   color: #FEFAF3;
 }
 .text-btn__brown {
@@ -708,6 +708,13 @@ button {
   padding-bottom: 20px;
   border-bottom: solid 4px #CDB39B;
 }
+@media (min-width: 56.25em) {
+  .menu__link--active {
+    margin: -2px;
+    padding-bottom: 20px;
+    border-bottom: solid 4px #CDB39B;
+  }
+}
 
 .active {
   margin: -2px;
@@ -800,7 +807,7 @@ button {
 
 .background-video {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
@@ -811,6 +818,11 @@ button {
   z-index: -2;
   overflow: hidden;
   margin: 0px;
+}
+@media (min-width: 48em) {
+  .background-video {
+    height: 100vh;
+  }
 }
 
 .intro-page {
@@ -825,6 +837,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0px 12%;
   margin-top: -40%;
   margin-bottom: 15%;
@@ -1168,6 +1183,8 @@ button {
           flex-direction: column;
   padding: 5% 10%;
   background-image: url("../resources/form.svg");
+  background-repeat: no-repeat;
+  margin-top: 5%;
 }
 
 .btn-sound {
@@ -1246,12 +1263,12 @@ button {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-top: -40%;
+    margin-top: -30%;
   }
 }
 @media (min-width: 56.25em) {
   .intro-ubication {
-    margin-top: -10%;
+    margin-top: -37px;
     margin-bottom: 10%;
   }
 }
@@ -1268,13 +1285,18 @@ button {
 }
 @media (min-width: 48em) and (min-width: 56.25em) {
   .text-ubi {
-    margin: 15% -10% 10% 10%;
+    margin: 0px 0px 0px 10%;
+  }
+}
+@media (min-width: 48em) and (min-width: 1600px) {
+  .text-ubi {
+    margin: 0px 0px 10% 10%;
   }
 }
 
 @media (min-width: 48em) {
   .share-all {
-    margin-top: 15%;
+    padding-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1321,7 +1343,6 @@ button {
 @media (min-width: 48em) {
   .video-tea {
     margin-top: 0px;
-    width: 60%;
     margin-bottom: -4px;
   }
 }
@@ -1329,8 +1350,8 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(30, 35, 40, 0)), to(#1E2328));
-  background: linear-gradient(180deg, rgba(30, 35, 40, 0) 60%, #1E2328 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(30, 35, 40, 0)), to(#1E2328));
+  background: linear-gradient(180deg, rgba(30, 35, 40, 0) 50%, #1E2328 100%);
 }
 @media (min-width: 48em) {
   .video-tea:after {

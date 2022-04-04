@@ -1,6 +1,6 @@
-<?php $title="log-in";?>
+<?php $title="login";?>
 <?php $path="../";?>
-<?php $active=true;?>
+<?php $active="area-de-usuario";?>
 <?php include($path . 'php/head.php')?>
 <body>
     <?php include($path . 'php/nav.php')?>

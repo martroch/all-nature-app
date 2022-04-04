@@ -1,6 +1,6 @@
 <?php $title="Locations";?>
 <?php $path="../";?>
-<?php $active=true;?>
+<?php $active="locations";?>
 <?php include($path . 'php/head.php')?>
 <body>
     <?php include($path . 'php/nav.php')?>
