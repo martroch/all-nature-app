@@ -403,6 +403,10 @@ a {
   text-align: left;
 }
 
+.fav-text {
+  text-align: right;
+}
+
 html {
   font-size: 100%;
 }
@@ -691,7 +695,7 @@ button {
 .menu {
   width: 100%;
   margin-top: 10%;
-  margin-right: -100%;
+  margin-right: -150%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1099,6 +1103,9 @@ button {
   margin-bottom: 10px;
 }
 
+.text-places {
+  margin-right: 20%;
+}
 @media (min-width: 48em) {
   .text-places {
     width: 60%;

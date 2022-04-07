@@ -198,6 +198,7 @@
 
 
 .text-places{
+    margin-right: 20%;
     @include respond-to(small){
     width: 60%;
     margin: 20% 0px;}
